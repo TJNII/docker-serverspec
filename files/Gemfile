@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'serverspec'
+# Keep docker-api at v1.18 for Docker API 1.15 (Debian Jessie current 2015-06-04)(This is gonna be a pain point...)
+gem 'docker-api', '~>1.18.0'
