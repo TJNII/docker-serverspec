@@ -8,7 +8,6 @@ It is intended to be called against the target container's source tree.
 Prereqs
 -------
 
-- Docker daemon API Version 1.15 (Pinned in the Gemfile to work on Debian Jessie, better solutions welcomed.)
 - World readable / docker group readable source container tree
 - Source container tree mapped in at /source
 - Docker daemon socket mapped in at /var/run/docker.sock
